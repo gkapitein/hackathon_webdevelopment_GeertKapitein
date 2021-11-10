@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> recepten met een verhaal/contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contactformulier</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="recepten.html">Recepten</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contactlayout">
+            <article class="itemcontact1">
+                <h1>Contact</h1>
+                <br>
+                <p>
+                    Heb je vragen of andere suggesties, geef dit door via het contactfomulier
+                    <br>
+                    Ook als je andere leuke recepten met een verhaal hebt, kun je dit doorgeven via het
+                    contactformulier<br>
+                    <br>
+                    Vanwege contentvernieuwing, zouden we het ook fijn vinden als je de overige gegevens in het
+                    contformulier
+                    in zou willen vullen<br>
+                    Dit is niet verplicht, maar wel zeer welkom
+                </p>
+            </article>
+            <article class="itemcontact2">
+                <h1 class="subtitel">Contactformulier</h1>
+                <br>
+                <form class="contactformulier" name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label>Naam: <input type="text" name="Naam" /></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Email: <input type="email" name="Email" /></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Telefoon nummer: <input type="text" name="name" /></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Geboortedatum:<input type="date" name="Geboortedatum"></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Gender: <input type="radio" name="gender" value="male"></label>
+                        <label for="male">Man</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="female">Vrouw</label>
+                    </p>
+                    <br>
+                    <p>
+                        <label> Favoriete cuisine:<br><input type="checkbox" name="cuisine1" value="Frans">
+                            <label for="cuisine1"> Frans </label><br>
+                            <input type="checkbox" name="cuisine2" value="Italiaans">
+                            <label for="cuisine2"> Italiaans </label><br>
+                            <input type="checkbox" name="cuisine3" value="Spaans">
+                            <label for="cuisine3"> Spaans </label><br>
+                            <input type="checkbox" name="cuisine4" value="Arabisch">
+                            <label for="cuisine4"> Arabisch </label><br></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Textveld: <textarea name="Biografie"></textarea></label>
+                    </p>
+                    <br>
+                    <p>
+                        <label>Upload je verhaal/recept<br><input type="file" name="filename">
+                            <input type="submit"></label>
+                    </p>
+                    <br>
+                    <p>
+                        <input type="reset">
+                    </p>
+                    <br>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Copyright 2021, Geert Kapitein
+    </footer>
+
+</body>
+
+</html>
